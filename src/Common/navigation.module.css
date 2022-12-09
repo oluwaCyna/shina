@@ -1,0 +1,95 @@
+.navContainer {
+    padding: 25px 10%;
+    background-color: #242424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(46, 114, 54, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;;
+    position: sticky;
+}
+
+.logo {
+    color: white;
+    /* flex: 30%; */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    padding: 15px 0 20px;
+    margin: 0px 30px;
+    position: relative;
+    opacity: 0.75;
+}
+
+.links::before {
+    content: "";
+    transition: 300ms;
+    position: absolute;
+    bottom: 5px;
+    width: 0%;
+    height: 3px;
+    background-color: #003297;
+    border-radius: 20px 20px 0 0;
+}
+
+.links:hover {
+    opacity: 1;
+}
+
+.links:hover::before {
+    width: 100%;
+    opacity: 1;
+}
+
+.linksActive {
+    color: white;
+    text-decoration: none;
+    padding: 15px 0 20px;
+    margin: 0px 40px;
+    position: relative;
+    opacity: 0.75;
+}
+
+.linksActive::before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    height: 3px;
+    background-color: #00094B;
+    border-radius: 20px 20px 0 0;
+}
+
+.btn {
+    padding: 15px 20px;
+    background-color:#00094B;
+    color: white;
+    border: none;
+    /* border-radius: 15px; */
+}
+
+.btn:hover {
+    background-color: #003297;
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    .navContainer {
+        justify-content: space-evenly;
+    }
+    .nav {
+        justify-content: space-evenly;
+        gap: 0;
+    }
+
+    .links {
+        margin: 0px 15px;
+    }
+}
