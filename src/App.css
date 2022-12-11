@@ -1,3 +1,76 @@
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+}
+
+.btn {
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.primary-btn {
+  background-color:#00094B;
+  color: white;
+  border: none;
+}
+
+.secondary-btn {
+  background-color:rgba(255, 255, 255, 0);
+  color: #ffffff;
+  border: 1px solid #00094B;
+}
+
+.primary-btn:hover {
+  background-color:#003297;
+  color: #ffffff;
+  border: none;
+}
+
+.secondary-btn:hover {
+  background-color:#003297;
+  color: #ffffff;
+  border: 1px solid #003297;
+}
+
 .App {
   text-align: center;
 }
