@@ -3,18 +3,87 @@
     background-color: #242424;
 }
 
+h3 {
+    color: #ffffff;
+}
+
+p {
+    color: #999999;
+}
+
 .footerContainer {
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 .footerSocial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.footerSocialIcons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.footerSocialIcons a {
+    color: #ffffff;
+    position: relative;
+}
+
+/* Tooltip */
+.footerSocialIcons a::before,
+.footerSocialIcons a::after {
+  --scale: 0;
+  --arrow-size: 10px;
+  --tooltip-color: #003297;
+
+  position: absolute;
+  top: -.25rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+  transition: 150ms transform;
+  transform-origin: bottom center;
+}
+
+.footerSocialIcons a::before {
+  --translate-y: calc(-100% - var(--arrow-size));
+
+  content: attr(data-tp);
+  color: white;
+  padding: .5rem;
+  border-radius: .3rem;
+  text-align: center;
+  font-size: 15px;
+  width: max-content;
+  background: var(--tooltip-color);
+}
+
+.footerSocialIcons a:hover::before,
+.footerSocialIcons a:hover::after {
+  --scale: 1;
+}
+
+.footerSocialIcons a::after {
+  --translate-y: calc(-1 * var(--arrow-size));
+
+  content: '';
+  border: var(--arrow-size) solid transparent;
+  border-top-color: var(--tooltip-color);
+  transform-origin: top center;
 }
 
 .footerSections {
     display: flex;
     justify-content: space-between;
+}
+
+.footerSections h3 {
+    padding-bottom: 20px;
 }
 
 .footerSectionOne {
@@ -32,27 +101,29 @@
     gap: 20px;
 }
 
-/* .footerSectionOne a:first-child {
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration: none;
-    background-color:#00094B;
-    color: white;
-    border: none;
-}
-
-.footerSectionOne a:first-child {
-    padding: 15px 45px;
-    text-align: center;
-    text-decoration: none;
-    background-color:#00094B;
-    color: white;
-    border: none;
-} */
-
 .footerSectionTwo {
     flex: calc(100%/3);
     /* padding: 15px 15px 15px 0; */
+}
+
+.footerListGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerListGroup a {
+    text-decoration: none;
+    color: #999999;   
+}
+
+.footerListGroup p {
+    margin: 0; 
+    cursor: pointer;  
+}
+
+.footerListGroup a:hover {
+    color: #ffffff;   
 }
 
 .footerSectionThree {
@@ -61,5 +132,6 @@
 }
 
 .footerNote {
-
+    text-align: center;
+    color: #ffffff;   
 }
