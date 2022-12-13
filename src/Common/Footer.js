@@ -42,8 +42,8 @@ const Footer = () => {
           <h3>Stacks</h3>
             <div className={footerStyle.footerListGroup}>
                 <p><FontAwesomeIcon icon={faHandPointRight} /> HTML, CSS, Bootstrap, Tailwind CSS</p>
-                <p><FontAwesomeIcon icon={faHandPointRight} /> Javascript, ReactJS</p>
-                <p><FontAwesomeIcon icon={faHandPointRight} /> PHP, Laravel</p>
+                <p><FontAwesomeIcon icon={faHandPointRight} /> Javascript, ReactJS, API</p>
+                <p><FontAwesomeIcon icon={faHandPointRight} /> PHP, Laravel, API</p>
                 <p><FontAwesomeIcon icon={faHandPointRight} /> MySQL, MongoDB</p>
                 <p><FontAwesomeIcon icon={faHandPointRight} /> Custon wordpress, wix velo</p>
             </div>

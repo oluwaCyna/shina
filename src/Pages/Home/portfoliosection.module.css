@@ -1,0 +1,19 @@
+.portfolioSection {
+    background-color: #fafafa;
+    
+    padding: 50px;
+
+}
+
+h2, h4 {
+    margin: 0;
+}
+
+.portfolioSectionSpace {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}

@@ -41,8 +41,8 @@
 }
 
 .spacer {
-  margin-top: 100px;
-  border: 1px solid red;
+  margin-top: 50px;
+  border: 1px solid #00094B;
 }
 
 .btn {
@@ -114,3 +114,5 @@
     transform: rotate(360deg);
   }
 }
+
+
