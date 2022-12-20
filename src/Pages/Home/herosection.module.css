@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
 }
 
 .mainSection {
@@ -44,8 +44,16 @@ h2 {
 
 .logos {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.logos img {
+    width:  calc(90%/6);
+    aspect-ratio: 2 / 1;
+    object-fit: contain;
 }
 
 .review {
@@ -57,3 +65,20 @@ h2 span {
     color: #003297;
     /* animation-delay: 0s; */
 }
+
+@media (max-width: 767px) {
+    .mainSection {
+        flex-direction: column;
+        height: fit-content;
+        margin-top: 90px;
+    }
+    .columnOne {
+        justify-content: center;
+        align-items: flex-start ;
+        padding: 0 10%;
+    }
+    .logos img {
+        width:  calc(90%/3);
+    }
+    
+    }

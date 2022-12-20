@@ -1,0 +1,42 @@
+.testimonial {
+    background: linear-gradient(112deg, #242424 50%, #003297 50%);
+    width: 70%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.testimonial p {
+    color: #ffffff;
+    font-style: italic;
+}
+
+
+.testimonial a:hover {
+    opacity: 0.75;
+}
+
+.name p, .name h3{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+.testimonialSection {
+
+}
+
+.testimonialSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-top: 50px;
+}

@@ -48,7 +48,7 @@ const Footer = () => {
                 <p><FontAwesomeIcon icon={faHandPointRight} /> Custon wordpress, wix velo</p>
             </div>
           </div>
-          <div className={footerStyle.footerSectionThree}>
+          {/* <div className={footerStyle.footerSectionThree}>
           <h3>What I can do for you</h3>
             <div className={footerStyle.footerListGroup}>
                 <p><FontAwesomeIcon icon={faHandPointRight} /> Basic Website Development</p>
@@ -57,7 +57,7 @@ const Footer = () => {
                 <p><FontAwesomeIcon icon={faHandPointRight} /> Marketplace Website Develoment</p>
                 <p><FontAwesomeIcon icon={faHandPointRight} /> Custom Web Application Solutions</p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className={footerStyle.footerNote}>
           c 2023. Designed and Developed with ReactJs by dev.Shina

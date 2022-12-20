@@ -11,6 +11,7 @@ const PortfolioSection = () => {
         <p>My clients range from start-ups to 8-figure businesses<br /> that sell products or services online.</p>
         <Link to={'porfolio'} className={'btn primary-btn'}>View projects</Link>
     </div>
+    {/* <hr className="container spacer" /> */}
     </div>
   )
 }

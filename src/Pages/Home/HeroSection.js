@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import heroStyle from "./herosection.module.css";
+import ReviewCarosel from "./ReviewCarosel";
 
 function HeroSection() {
  
@@ -92,29 +93,28 @@ function HeroSection() {
         <div className={heroStyle.logos}>
           <img
             src={"/clients-logo/bettinggods.png"}
-            height={50}
             alt={"Betting Gods"}
           />
-          <img src={"/clients-logo/upwork.png"} height={50} alt={"Upwork"} />
+          <img 
+            src={"/clients-logo/upwork.png"}
+            alt={"Upwork"} 
+          />
           <img
             src={"/clients-logo/RG_Heart.png"}
-            height={50}
             alt={"Radical Grief"}
           />
           <img
             src={"/clients-logo/oregonsci.png"}
-            height={50}
             alt={"Oregon Spinal Cord Injury connection"}
           />
-          <img src={"/clients-logo/therba.png"} height={50} alt={"The RBA"} />
+          <img 
+            src={"/clients-logo/therba.png"} 
+            alt={"The RBA"} 
+          />
           <img
             src={"/clients-logo/RHFH.png"}
-            height={50}
             alt={"Ronnie House For Hope"}
           />
-        </div>
-        <div className={heroStyle.review}>
-          {/* <ReviewCarosel /> */}
         </div>
       </div>
       <hr className="container spacer" />
