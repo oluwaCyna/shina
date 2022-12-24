@@ -1,0 +1,26 @@
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15%;
+    text-align: justify;
+
+}
+.rowOne {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 10px;
+}
+.rowOneOne {
+    flex: 30%;
+}
+.rowOneOne img {
+    height: 90%;
+    width: 100%;
+    object-fit: contain;
+}
+.rowOneTwo {
+    flex: 70%;
+
+}
