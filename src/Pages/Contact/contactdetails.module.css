@@ -1,0 +1,70 @@
+.contactList {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40%;
+    padding: 20px 0;
+}
+
+.icon {
+    color: green;
+}
+
+.contactDetails {
+    display: flex;
+    justify-content  : center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contactDetails h3, .contactDetails a,  .contactDetails p {
+    padding: 0;
+    margin: 0;
+}
+
+ .contactDetails a {
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .contact {
+        gap: 30%;
+    }
+}
+
+@media (max-width: 992px) {
+    .contact {
+        gap: 15%;
+    }
+}
+
+@media (max-width: 894px) {
+    .contact {
+        gap: 35%;
+    }
+}
+
+@media (max-width: 515px) {
+    .contact {
+        gap: 15%;
+    }
+
+    .contactDetails a {
+        font-size: 15px;
+    }
+}

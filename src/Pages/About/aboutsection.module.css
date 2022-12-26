@@ -22,5 +22,75 @@
 }
 .rowOneTwo {
     flex: 70%;
+}
 
+.stackSection {
+    padding: 0 15%;
+    padding-top: 20px;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.hrDiv {
+    width: 5%;
+    text-align: left;
+
+}
+.hrDiv hr {
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+}
+
+.stackList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.stackCard {
+    padding: 15px 50px;
+    width: 60%;
+    /* background-color: #ffffff;
+    margin: auto;
+    padding: 2em; */
+    border-radius: 1em;
+    border: 1px solid #ffffff59;
+    /* text-shadow: 0 0 1em #ffffff7b; */
+    background-color: #ffffff59;
+    backdrop-filter: blur(20px);
+    /* transform: perspective(500px); */
+    transform-style: preserve-3d;
+    /* opacity: 0.8; */
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    color: #ffffff;
+}
+
+@media (max-width: 899px) {
+    .aboutSection {
+        padding: 0 5%;
+        gap: 10px;
+    }
+
+    .stackSection {
+        padding: 0 5%;
+    }
+
+    .rowOne {
+        flex-direction: column;
+        padding: 0;
+    }
+    .rowOneOne {
+        flex: 100%;
+    }
+    .rowOneOne img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+    }
+    .rowOneTwo {
+        flex: 100%;
+    }
 }

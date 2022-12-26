@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+    padding: 40px 0;
+    }
+.col {
+    flex: 45%;
+}
+
+@media (max-width: 899px) {
+    .row {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 40px 2%;
+        }
+    .col {
+        flex: 100%;
+    }
+}

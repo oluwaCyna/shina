@@ -1,11 +1,13 @@
 .header {
     height: 40vh;
-    padding: 150px 50px;
+    width: 100%;
+    /* padding: 150px 50px; */
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 73px;
     }
 
 .headerImg {
@@ -26,7 +28,7 @@
     left: 0;
     z-index: 1;
     background-color: #000000;
-    opacity: 0.95;
+    opacity: 0.85;
 }
 
 .titleBox {
@@ -37,5 +39,8 @@
 
 .titleBox h2 {
     text-transform: Uppercase;
-    color: #00094B;
+    color: #ffffff;
+}
+.titleBox p {
+    color: #ffffff;
 }

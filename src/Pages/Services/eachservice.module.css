@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.hrDiv {
+    width: 5%;
+    text-align: left;
+
+}
+.hrDiv hr {
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+}
+
+.desc {
+    margin: 0;
+    padding: 0;
+}
+

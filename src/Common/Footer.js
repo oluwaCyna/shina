@@ -4,7 +4,7 @@ import footerStyle from "./footer.module.css";
 import "../App.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandPointRight, faBuilding } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -16,6 +16,7 @@ const Footer = () => {
                 <a href={'https://upwork.com/freelancers/~019596c9284cd15377'} data-tp={'Upwork'} target={'_blank'}><FontAwesomeIcon icon={faBuilding} /></a>
                 <a href={'https://linkedin.com/in/shinaa/'} data-tp={'Linkedin'} target={'_blank'}><FontAwesomeIcon icon={faLinkedin} /></a>
                 <a href={'https://github.com/oluwaCyna'} data-tp={'Github'} target={'_blank'}><FontAwesomeIcon icon={faGithub} /></a>
+                <a href={'https://twitter.com/oluwaCyna'} data-tp={'Twitter'} target={'_blank'}><FontAwesomeIcon icon={faTwitter} /></a>
                 <a href={'https://instagram.com/oluwacyna/'} data-tp={'Instagram'} target={'_blank'}><FontAwesomeIcon icon={faInstagram} /></a>
             </div>
         </div>
