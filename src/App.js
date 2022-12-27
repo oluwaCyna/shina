@@ -6,6 +6,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
 import Portfolio from "./Pages/Portfolio";
+import SinglePortfolio from "./Pages/Portfolio/SinglePortfolio";
 import Services from "./Pages/Services";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/single" element={<SinglePortfolio />} />
       </Routes>
       <Footer />
     </BrowserRouter>
