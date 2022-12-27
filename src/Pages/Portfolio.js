@@ -16,8 +16,8 @@ const Portfolio = () => {
     <div>
       <Header content = {content} />
       <div>
-        <div className={`container ${porfolioStyle.miniBox}`}></div>
-        <hr />
+        {/* <div className={`container ${porfolioStyle.miniBox}`}></div>
+        <hr className={porfolioStyle.hrLine} /> */}
         <div className={`container ${porfolioStyle.container}`}>
           <div className={porfolioStyle.mainContainer}>
             <div className={porfolioStyle.colOne}>
@@ -37,14 +37,15 @@ const Portfolio = () => {
                 <Link to={'/'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
             </div>
           </div>
+          <hr className={porfolioStyle.hrLine}/>
         </div>
-        <hr />
-        <div className={`container ${porfolioStyle.miniBox}`}></div>
+        
+        {/* <div className={`container ${porfolioStyle.miniBox}`}></div> */}
       </div>
 
       <div>
         {/* <div className={`container ${porfolioStyle.miniBox}`}></div> */}
-        <hr />
+        {/* <hr /> */}
         <div className={`container ${porfolioStyle.container}`}>
           <div className={porfolioStyle.mainContainer}>
             <div className={porfolioStyle.colTwo}>
@@ -64,14 +65,15 @@ const Portfolio = () => {
               <img src={ 'codeBox.jpg' } alt={'tets'} className={porfolioStyle.headerImg} />
             </div>
           </div>
+          <hr className={porfolioStyle.hrLine} />
         </div>
-        <hr />
-        <div className={`container ${porfolioStyle.miniBox}`}></div>
+        
+        {/* <div className={`container ${porfolioStyle.miniBox}`}></div> */}
       </div>
       
       <div>
         {/* <div className={`container ${porfolioStyle.miniBox}`}></div> */}
-        <hr />
+        {/* <hr /> */}
         <div className={`container ${porfolioStyle.container}`}>
           <div className={porfolioStyle.mainContainer}>
             <div className={porfolioStyle.colOne}>
@@ -91,14 +93,15 @@ const Portfolio = () => {
                 <Link to={'/'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
             </div>
           </div>
+          <hr className={porfolioStyle.hrLine} />
         </div>
-        <hr />
-        <div className={`container ${porfolioStyle.miniBox}`}></div>
+       
+        {/* <div className={`container ${porfolioStyle.miniBox}`}></div> */}
       </div>
 
       <div>
         {/* <div className={`container ${porfolioStyle.miniBox}`}></div> */}
-        <hr />
+        {/* <hr /> */}
         <div className={`container ${porfolioStyle.container}`}>
           <div className={porfolioStyle.mainContainer}>
             <div className={porfolioStyle.colTwo}>
@@ -118,14 +121,15 @@ const Portfolio = () => {
               <img src={ 'codeBox.jpg' } alt={'tets'} className={porfolioStyle.headerImg} />
             </div>
           </div>
+          <hr className={porfolioStyle.hrLine} />
         </div>
-        <hr />
-        <div className={`container ${porfolioStyle.miniBox}`}></div>
+        
+        {/* <div className={`container ${porfolioStyle.miniBox}`}></div> */}
       </div>
 
       <div>
         {/* <div className={`container ${porfolioStyle.miniBox}`}></div> */}
-        <hr />
+        {/* <hr /> */}
         <div className={`container ${porfolioStyle.container}`}>
           <div className={porfolioStyle.mainContainer}>
             <div className={porfolioStyle.colOne}>
@@ -145,14 +149,15 @@ const Portfolio = () => {
                 <Link to={'/'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
             </div>
           </div>
+          <hr className={porfolioStyle.hrLine} />
         </div>
-        <hr />
-        <div className={`container ${porfolioStyle.miniBox}`}></div>
+        
+        {/* <div className={`container ${porfolioStyle.miniBox}`}></div> */}
       </div>
 
       <div>
         {/* <div className={`container ${porfolioStyle.miniBox}`}></div> */}
-        <hr />
+        {/* <hr /> */}
         <div className={`container ${porfolioStyle.container}`}>
           <div className={porfolioStyle.mainContainer}>
             <div className={porfolioStyle.colTwo}>
@@ -172,9 +177,10 @@ const Portfolio = () => {
               <img src={ 'codeBox.jpg' } alt={'tets'} className={porfolioStyle.headerImg} />
             </div>
           </div>
+          <hr className={porfolioStyle.hrLine} />
         </div>
-        <hr />
-        <div className={`container ${porfolioStyle.miniBox}`}></div>
+        
+        {/* <div className={`container ${porfolioStyle.miniBox}`}></div> */}
       </div>
 
     </div>

@@ -3,6 +3,8 @@ import contactFormStyle from "./contactform.module.css";
 
 const ContactForm = () => {
   return (
+    <div className={contactFormStyle.container}>
+      <p className={contactFormStyle.heading}>Please let us know how we can help you!</p>
       <form className={contactFormStyle.surveyForm}>
         <label htmlFor="fname" id="name-label">
           First Name
@@ -64,6 +66,7 @@ const ContactForm = () => {
           Submit
         </button>
       </form>
+      </div>
   );
 };
 

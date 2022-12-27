@@ -17,7 +17,7 @@
 }
 
 .icon {
-    color: green;
+    color: #1352BF;
 }
 
 .contactDetails {
@@ -27,7 +27,9 @@
     flex-direction: column;
     gap: 10px;
 }
-
+.contactDetails h3 {
+    color: #FDB035;
+}
 .contactDetails h3, .contactDetails a,  .contactDetails p {
     padding: 0;
     margin: 0;
@@ -35,6 +37,9 @@
 
  .contactDetails a {
     text-decoration: none;
+    font-size: 14pt;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
 }
 
 hr {

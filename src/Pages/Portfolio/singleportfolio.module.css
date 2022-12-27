@@ -1,14 +1,14 @@
 .container {
-    border-right: 1px solid green;
-    border-left: 1px solid green;
+    /* border-right: 1px solid #1352BF;
+    border-left: 1px solid #1352BF; */
     height: fit-content;
     /* margin: 0 20%; */
     padding: 20px 0;
 }
 .mainContainer {
     height: 100%;
-    border-top: 2px dashed green;
-    border-bottom: 2px dashed green;
+    /* border-top: 2px dashed #1352BF;
+    border-bottom: 2px dashed #1352BF; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -33,19 +33,19 @@
     margin: 20px;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 40px;
     /* background-color: red; */
 }
 
 hr {
     margin: 0;
     padding: 0;
-    border: 1px solid green;
+    border: 1px solid #1352BF;
 }
 .miniBox {
     height: 40px;
-    border-right: 1px solid green;
-    border-left: 1px solid green;
+    border-right: 1px solid #1352BF;
+    border-left: 1px solid #1352BF;
     /* margin: 0 20%; */
 
 }
@@ -54,12 +54,18 @@ hr {
     flex-direction: column;
     padding-bottom: 5px;
 }
+.arrow {
+    color: #FDB035;
+}
+.arrow:hover {
+    color: #1352BF;
+}
 .hrDiv {
     width: 15%;
     padding-top: 10px;
 }
 .hrDiv hr {
-    border: 1px solid red;
+    border: 1px solid #1352BF;
     padding: 0;
     margin: 0;
 }
