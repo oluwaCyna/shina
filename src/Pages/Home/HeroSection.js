@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import heroStyle from "./herosection.module.css";
-import ReviewCarosel from "./ReviewCarosel";
 
 function HeroSection() {
  
@@ -69,13 +68,15 @@ function HeroSection() {
       <div className={`container ${heroStyle.heroSection}`}>
         <div className={heroStyle.mainSection}>
           <div className={heroStyle.columnOne}>
-            <h2>Hi,</h2>
-            <h2>I'm Mujeeb Shina Abdullateef, a Full stack developer.</h2>
-            <h2>I develop <span class="txt-rotate" data-period="2000" data-rotate='[ "Websites.", "Web Applications.", "Softwares." ]'></span></h2>
-            <p>I'm a Full Stack Developer who uses PHP, Laravel, API, JavaScript, ReactJS, HTML, CSS, Tailwind CSS and Bootstrap technology to achieve goals and objectives.
-              I will bring your vision to life and create action-focused designs making your users' experience smoother.</p>
+            <h1>Hello,</h1>
+            <h1>My name is Shina A.</h1>
+            <h1>I develop <span class="txt-rotate" data-period="2000" data-rotate='[ "Websites.", "Web Applications.", "Softwares." ]'></span></h1>
+            {/* <p>I'm a Full Stack Developer who uses PHP, Laravel, API, JavaScript, ReactJS, HTML, CSS, Tailwind CSS and Bootstrap technology to achieve goals and objectives.
+              I will bring your vision to life and create action-focused designs making your users' experience smoother.
+            </p> */}
             <p>
-              With over <b>180 hours</b> of work on <b>Upwork</b>, I was chosen and given the <b>Top Rated Badge</b> to represent the top 10% of performers on the platform.
+              With over <b>180 hours</b> of work on <b>Upwork</b>, I was chosen and given the <b>Top Rated Badge</b> to represent the top 10% of performers on the platform. 
+              I will bring your vision to life and create action-focused designs making your users' experience smoother.
             </p>
             <div className={heroStyle.heroButtonGroup}>
               <Link to={"/"} className={"btn primary-btn"}>
@@ -87,7 +88,7 @@ function HeroSection() {
             </div>
           </div>
           <div className={heroStyle.columnTwo}>
-            <img src={"/imag.png"} height={200} width={200} />
+            <img src={"/useNew.png"} height={200} width={200} />
           </div>
         </div>
         <div className={heroStyle.logos}>

@@ -6,10 +6,12 @@ const PortfolioSection = () => {
   return (
     <div className={porfolioStyle.portfolioSection}>
     <div className={`container ${porfolioStyle.portfolioSectionSpace}`}>
-        <h4>PAST WORKS AND PROJECTS</h4>
+    <div className={porfolioStyle.heading}>
+        <h5>PAST WORKS AND PROJECTS</h5>
         <h2>Portfolio</h2>
+    </div>
         <p>My clients range from start-ups to 8-figure businesses<br /> that sell products or services online.</p>
-        <Link to={'porfolio'} className={'btn primary-btn'}>View projects</Link>
+        <Link to={'portfolio'} className={'btn primary-btn'}>View projects</Link>
     </div>
     {/* <hr className="container spacer" /> */}
     </div>

@@ -61,7 +61,7 @@ const Footer = () => {
           </div> */}
         </div>
         <div className={footerStyle.footerNote}>
-          c 2023. Designed and Developed with ReactJs by dev.Shina
+        &#169; 2023. Designed and Developed with ReactJs by <span>Shina A.</span>
         </div>
       </div>
     </footer>

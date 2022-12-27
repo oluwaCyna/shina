@@ -1,14 +1,6 @@
 .portfolioSection {
-    background-image: url('/public/codeBox.jpg');
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: cover;  
-    background-position-y: 20%;  
-    padding: 150px 50px;
-}
-
-h2, h4 {
-    margin: 0;
+    background-color: #E5E5E5; 
+    padding: 0 50px 50px 50px;
 }
 
 .portfolioSectionSpace {
@@ -18,4 +10,22 @@ h2, h4 {
     align-items: center;
     text-align: center;
     gap: 10px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolioSectionSpace h5 {
+    margin: 0;
+    color: #1352BF;
+}
+
+.portfolioSectionSpace h2 {
+    margin: 0;
+    color: #FDB035;
 }

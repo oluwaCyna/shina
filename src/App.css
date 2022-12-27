@@ -42,36 +42,39 @@
 
 .spacer {
   margin-top: 50px;
-  border: 1px solid #00094B;
+  /* border: 1px solid #00094B; */
 }
 
 .btn {
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 5px;
+  font-size: 11pt;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 
 .primary-btn {
-  background-color:#00094B;
+  background-color:#FDB035;
   color: white;
   border: none;
 }
 
 .secondary-btn {
-  background-color:rgba(255, 255, 255, 0);
-  color: #ffffff;
-  border: 1px solid #00094B;
+  background-color:#1352bf00;
+  color: #003297;
+  border: 1px solid #003297;
 }
 
 .primary-btn:hover {
-  background-color:#003297;
+  background-color:#1352BF;
   color: #ffffff;
   border: none;
 }
 
 .secondary-btn:hover {
-  background-color:#003297;
+  background-color:#FDB035;
   color: #ffffff;
   border: 1px solid #003297;
 }

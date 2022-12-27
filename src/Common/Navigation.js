@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import navStyle from "./navigation.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import NavigationModal from "./NavigationModal";
 
 const Navigation = () => {
@@ -62,8 +62,9 @@ const Navigation = () => {
   }, []);
 
   return (
-    <div className={navStyle.navContainer}>
-      <div className={navStyle.logo}>oluwaCyna</div>
+    <div className={navStyle.navContainer} id={'navigation'}>
+      {/* <Link to={'home#navigation'}><div className={navStyle.top}><FontAwesomeIcon icon={faArrowUp} /></div></Link> */}
+      <div className={navStyle.logo}><span>oluwa</span>Cyna</div>
       <div className={navStyle.nav}>
         <nav className={navStyle} style={{ display: navView.desktop }}>
           <NavLink

@@ -82,24 +82,24 @@ const ServicesSection = () => {
   ];
 
   return (
+    <div className={servicesStyle.servicesSectionBg}>
     <div className={'container'}>
     <div className={servicesStyle.servicesSection}>
-      <h4>WHAT I DO</h4>
+    <div className={servicesStyle.heading}>
+      <h5>WHAT I DO</h5>
       <h2>Services</h2>
-      <p>
-        My clients range from start-ups to 8-figure businesses
-        <br /> that sell products or services online.
-      </p>
+      </div>
       <div className={servicesStyle.serviceBoxContainer}>
         {services.map((service) => (
           <ServiceCard key={service.id} serv={service} />
         ))}
       </div>
-      <Link to={"porfolio"} className={"btn primary-btn"}>
-        View projects
+      <Link to={"services"} className={"btn primary-btn"}>
+        CHECK ALL
       </Link>
     </div>
-    <hr className="container spacer" />
+    <div className="container spacer"></div>
+    </div>
     </div>
   );
 };
@@ -107,17 +107,12 @@ const ServicesSection = () => {
 const ServiceCard = (props) => {
   return (
     <div className={servicesStyle.projectCard}>
-      <div className={servicesStyle.face1}>
-        <div className={servicesStyle.content}>
-          <p>{props.serv.desc}</p>
-        </div>
-      </div>
-      <div className={`${servicesStyle.face} ${servicesStyle.face2}`}>
+      <div className={servicesStyle.face}>
         <FontAwesomeIcon
           icon={faLaptopCode}
           className={servicesStyle.icon}
         />
-        <h2>{props.serv.title}</h2>
+        <h3>{props.serv.title}</h3>
       </div>
     </div>
   );

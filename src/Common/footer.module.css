@@ -2,14 +2,36 @@
     padding: 25px 10%;
     background-color: #242424;
 }
-
-h3 {
+.footer h1 {
+    font-size: 38pt;
     color: #ffffff;
-}
+    font-family: 'Poppins', sans-serif;
+  }
+.footer h2 {
+    font-size: 31pt;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+.footer h3 {
+    font-size: 25pt;
+    color: #1352BF;
+    font-family: 'Poppins', sans-serif;
+  }
+.footer h4 {
+    font-size: 21pt;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+.footer p {
+    font-size: 14pt;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+  }
 
-p {
-    color: #999999;
-}
+.footer a {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+  }
 
 .footerContainer {
     display: flex;
@@ -40,7 +62,7 @@ p {
 .footerSocialIcons a::after {
   --scale: 0;
   --arrow-size: 10px;
-  --tooltip-color: #003297;
+  --tooltip-color: #1352BF;
 
   position: absolute;
   top: -.25rem;
@@ -116,7 +138,7 @@ p {
 
 .footerListGroup a {
     text-decoration: none;
-    color: #999999;   
+    /* color: #999999;    */
 }
 
 .footerListGroup p {
@@ -125,7 +147,7 @@ p {
 }
 
 .footerListGroup a:hover {
-    color: #ffffff;   
+    color: #FDB035;   
 }
 
 .footerSectionThree {
@@ -133,9 +155,15 @@ p {
     /* padding: 15px 15px 15px 0; */
 }
 
+.footerNote span {
+    color: #FDB035;   
+}
+
 .footerNote {
     text-align: center;
-    color: #ffffff;   
+    font-size: 14pt;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif; 
 }
 
 @media (max-width: 767px) {
