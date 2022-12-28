@@ -26,7 +26,7 @@ const AboutSection = () => {
         },
         {
             id: 6,
-            name: 'API'
+            name: 'Redux'
         },
         {
             id: 7,
@@ -66,10 +66,10 @@ const AboutSection = () => {
             It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
             It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           </div>
         </div>
         <div className={aboutStyle.rowTwo}>
@@ -94,7 +94,7 @@ const AboutSection = () => {
 
       <div className={aboutStyle.stackSection}>
         <div className={aboutStyle.heading}>
-            <h2>STACKS</h2>
+            <h3>STACKS</h3>
             <div className={aboutStyle.hrDiv}><hr /></div>
         </div>
         <div className={aboutStyle.stackList}>

@@ -35,6 +35,10 @@
     /* gap: 100px; */
 }
 
+.nav .icon {
+    color: #ffffff;
+}
+
 .links {
     color: white;
     text-decoration: none;
@@ -106,4 +110,8 @@
     .links {
         margin: 0px 15px;
     }
+}
+.logo {
+    font-size: 30pt;
+    color: #1352BF;
 }

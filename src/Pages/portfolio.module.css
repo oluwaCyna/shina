@@ -51,7 +51,8 @@
 }
 .heading h2 {
     text-transform: Uppercase;
-    color: #FDB035;
+    font-size: 25pt;
+    color: #1352BF;
 }
 .hrDiv {
     width: 15%;

@@ -3,20 +3,25 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 .heading {
     display: flex;
     flex-direction: column;
     padding-bottom: 15px;
 }
+.heading h2 {
+  text-transform: Uppercase;
+  font-size: 25pt;
+  color: #1352BF;
+}
 .hrDiv {
-    width: 5%;
+    width: 25%;
     text-align: left;
 
 }
 .hrDiv hr {
-    border: 1px solid red;
+    border: 1px solid #1352BF;
     padding: 0;
     margin: 0;
 }
@@ -28,27 +33,31 @@
 
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    /* border: 1px solid #FDB035; */
+    background-color: #FDB035;
   }
   
   .tab button {
-    background-color: inherit;
+    background-color: #FDB035;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 15pt;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
   }
   
   .tab button:hover {
-    background-color: #ddd;
+    background-color: #ffffff;
+    color: #1352BF;
   }
   
   .tab button.active {
-    background-color: #ccc;
+    background-color: #ffffff;
+    color: #1352BF;
   }
   
   .tabcontent {
@@ -56,4 +65,11 @@
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    background-color: #ffffff;
+    color: #000000;
+
   }
+  .link {
+    width: fit-content;
+  }
+ 

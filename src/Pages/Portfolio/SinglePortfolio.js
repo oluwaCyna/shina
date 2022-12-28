@@ -7,10 +7,10 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 function SinglePortfolio() {
 const content = {
-    img: 'codeBox.jpg',
-    imgAlt: 'Alternative Text', 
+    img: 'singleportfolio.jpg',
+    imgAlt: 'Single Portfolio Header', 
     title: 'Portfolio', 
-    desc: 'This is additional text'
+    desc: ''
     }
   return (
     <div>
@@ -21,11 +21,11 @@ const content = {
             <div className={`container ${singlePorfolioStyle.container}`}>
             <div className={singlePorfolioStyle.mainContainer}>
                 <div className={singlePorfolioStyle.colOne}>
-                <img src={ 'codeBox.jpg' } alt={'tets'} className={singlePorfolioStyle.headerImg} />
-                <img src={ 'codeBox.jpg' } alt={'tets'} className={singlePorfolioStyle.headerImg} />
-                <img src={ 'codeBox.jpg' } alt={'tets'} className={singlePorfolioStyle.headerImg} />
-                <img src={ 'codeBox.jpg' } alt={'tets'} className={singlePorfolioStyle.headerImg} />
-                <img src={ 'codeBox.jpg' } alt={'tets'} className={singlePorfolioStyle.headerImg} />
+                <img src={ 'test2.png' } alt={'tets'} className={singlePorfolioStyle.headerImg} />
+                <img src={ 'test2.png' } alt={'tets'} className={singlePorfolioStyle.headerImg} />
+                <img src={ 'test2.png' } alt={'tets'} className={singlePorfolioStyle.headerImg} />
+                <img src={ 'test2.png' } alt={'tets'} className={singlePorfolioStyle.headerImg} />
+                <img src={ 'test2.png' } alt={'tets'} className={singlePorfolioStyle.headerImg} />
 
                 </div>
 

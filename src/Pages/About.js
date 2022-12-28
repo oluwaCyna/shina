@@ -5,10 +5,10 @@ import TabSection from './Services/TabSection'
 
 const About = () => {
   const content = {
-    img: 'codeBox.jpg',
-    imgAlt: 'Alternative Text', 
+    img: 'about.jpg',
+    imgAlt: 'About Header', 
     title: 'About', 
-    desc: 'This is additional text'
+    desc: ''
   }
   return (
     <>

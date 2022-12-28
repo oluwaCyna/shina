@@ -113,6 +113,8 @@ const Navigation = () => {
         </Link>
         <FontAwesomeIcon
           icon={faBars}
+          className={navStyle.icon}
+          size='2x'
           onClick={handleMobileNav}
           style={{ display: navView.mobile }}
         />

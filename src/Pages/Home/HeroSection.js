@@ -88,7 +88,7 @@ function HeroSection() {
             </div>
           </div>
           <div className={heroStyle.columnTwo}>
-            <img src={"/useNew.png"} height={200} width={200} />
+            <img src={"/AQP.png"} height={200} width={200} />
           </div>
         </div>
         <div className={heroStyle.logos}>

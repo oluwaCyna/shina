@@ -6,10 +6,10 @@ import contactStyle from './contact.module.css';
 
 const Contact = () => {
   const content = {
-    img: 'codeBox.jpg',
-    imgAlt: 'Alternative Text', 
+    img: 'contact.jpg',
+    imgAlt: 'Contact Header', 
     title: 'Contact', 
-    desc: 'This is additional text'
+    desc: ''
   }
   
   return (

@@ -6,10 +6,10 @@ import ServiceTwo from './Services/ServiceTwo'
 
 const Services = () => {
   const content = {
-    img: 'codeBox.jpg',
-    imgAlt: 'Alternative Text', 
+    img: 'services.jpg',
+    imgAlt: 'Service Header', 
     title: 'Services', 
-    desc: 'This is additional text'
+    desc: ''
   }
   return (
     <div>

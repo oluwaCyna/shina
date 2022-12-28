@@ -1,12 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react'
+import {Link} from 'react-router-dom'
 import serviceGroupStyle from './servicegroup.module.css'
 
 function ServiceTwo() {
     const Active = {
-        backgroundColor: '#ddd'
+        backgroundColor: '#ffffff',
+        color: '#1352BF'
     }
     const Passive = {
-        backgroundColor: '#f1f1f1'
+        backgroundColor: '#FDB035',
+        color: '#ffffff'
     }
     const [TabState, setTabState] = useState({
         tabOneBtn: false,
@@ -34,7 +37,8 @@ function ServiceTwo() {
         <div>
             <div className={serviceGroupStyle.container}>
                 <div className={serviceGroupStyle.heading}>
-                    <h2>Website Design</h2>
+                    <hr />
+                    <h2>Advanced Website Design - Little/No Code</h2>
                     <div className={serviceGroupStyle.hrDiv}><hr /></div>
                 </div>
                 <p className={serviceGroupStyle.desc}>
@@ -80,7 +84,7 @@ function ServiceTwo() {
                             </p>
                     </div>
                 </div>
-                <button className={'btn btn-primary'}>Book</button>
+                <Link to={'/contact'} className={`btn primary-btn ${serviceGroupStyle.link}`}>Request Quote</Link>
             </div>
         </div>
     </div>
