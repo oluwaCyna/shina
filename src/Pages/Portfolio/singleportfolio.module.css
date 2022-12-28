@@ -30,7 +30,7 @@
     flex: 50%;
     height: calc(100% - 40px);
     /* padding-top: 20px; */
-    margin: 20px;
+    margin: 0 20px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -52,7 +52,7 @@ hr {
 .heading {
     display: flex;
     flex-direction: column;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 .arrow {
     color: #FDB035;

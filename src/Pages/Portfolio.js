@@ -32,7 +32,7 @@ const Portfolio = () => {
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <Link to={'/'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
+                <Link to={'/portfolio/ronnieshouseforhope'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
             </div>
           </div>
           <hr className={porfolioStyle.hrLine}/>
@@ -52,7 +52,7 @@ const Portfolio = () => {
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <Link to={'/'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
+                <Link to={'/portfolio/portfolio'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
             </div>
 
             <div className={porfolioStyle.colOne}>
@@ -80,7 +80,7 @@ const Portfolio = () => {
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <Link to={'/'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
+                <Link to={'/portfolio/jasminshah'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
             </div>
           </div>
           <hr className={porfolioStyle.hrLine} />
@@ -100,7 +100,7 @@ const Portfolio = () => {
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <Link to={'/'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
+                <Link to={'/portfolio/resturant'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
             </div>
 
             <div className={porfolioStyle.colOne}>
@@ -128,7 +128,7 @@ const Portfolio = () => {
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <Link to={'/'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
+                <Link to={'/portfolio/ecare'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
             </div>
           </div>
           <hr className={porfolioStyle.hrLine} />
@@ -148,7 +148,7 @@ const Portfolio = () => {
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <Link to={'/'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
+                <Link to={'/portfolio/radicalgrief'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
             </div>
 
             <div className={porfolioStyle.colOne}>
@@ -176,7 +176,7 @@ const Portfolio = () => {
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <Link to={'/'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
+                <Link to={'/portfolio/press'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
             </div>
           </div>
           <hr className={porfolioStyle.hrLine} />
@@ -196,7 +196,7 @@ const Portfolio = () => {
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <Link to={'/'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
+                <Link to={'/portfolio/ecommerce'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
             </div>
 
             <div className={porfolioStyle.colOne}>

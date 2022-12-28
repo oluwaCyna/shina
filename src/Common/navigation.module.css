@@ -24,6 +24,9 @@
     font-size: 30pt;
     color: #1352BF;
 }
+.logo a {
+    text-decoration: none;
+}
 .logo span {
     color: #FDB035;
 }

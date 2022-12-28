@@ -40,9 +40,9 @@ const NavigationModal = (props) => {
                 Contact
                 </Link>
             </div>
-            <button className={modalStyle.btn}>
+            <Link to={'contact'} className={'btn primary-btn'}>
                 Request Quote
-            </button>
+            </Link>
       </div>
     </div>
   );

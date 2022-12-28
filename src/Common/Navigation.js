@@ -64,7 +64,7 @@ const Navigation = () => {
   return (
     <div className={navStyle.navContainer} id={'navigation'}>
       {/* <Link to={'home#navigation'}><div className={navStyle.top}><FontAwesomeIcon icon={faArrowUp} /></div></Link> */}
-      <div className={navStyle.logo}><span>oluwa</span>Cyna</div>
+      <div className={navStyle.logo}><Link to={'/'}><span>oluwa</span>Cyna</Link></div>
       <div className={navStyle.nav}>
         <nav className={navStyle} style={{ display: navView.desktop }}>
           <NavLink
@@ -108,7 +108,7 @@ const Navigation = () => {
             Contact
           </NavLink>
         </nav>
-        <Link to={'/'} className={'btn primary-btn'} style={{ display: navView.desktop }}>
+        <Link to={'contact'} className={'btn primary-btn'} style={{ display: navView.desktop }}>
           Request Quote
         </Link>
         <FontAwesomeIcon

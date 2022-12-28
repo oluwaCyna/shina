@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faBuilding } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import contactDetailsStyle from './contactdetails.module.css';
 
@@ -21,7 +21,7 @@ const ContactDetails = () => {
 
           <div className={contactDetailsStyle.contactContainer}>
             <div className={contactDetailsStyle.contact}>
-              <FontAwesomeIcon className={contactDetailsStyle.icon} icon={faLinkedin} fixedWidth size='3x' /> 
+              <FontAwesomeIcon className={contactDetailsStyle.icon} icon={faBuilding} fixedWidth size='3x' /> 
               <div className={contactDetailsStyle.contactDetails}>
                 <h3>Upwork:</h3>
                 <a href={'https://www.upwork.com/freelancers/~019596c9284cd15377'} target={'_blank'}>Shina A.</a>

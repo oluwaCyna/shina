@@ -79,10 +79,10 @@ function HeroSection() {
               I will bring your vision to life and create action-focused designs making your users' experience smoother.
             </p>
             <div className={heroStyle.heroButtonGroup}>
-              <Link to={"/"} className={"btn primary-btn"}>
+              <Link to={"contact"} className={"btn primary-btn"}>
                 Request Quote
               </Link>
-              <Link to={"/"} className={"btn secondary-btn"}>
+              <Link to={"contact"} className={"btn secondary-btn"}>
                 Discovery Call
               </Link>
             </div>
