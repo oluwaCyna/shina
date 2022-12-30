@@ -17,8 +17,7 @@
     right: 15px;
     z-index: 300;
     font-family: 'Poppins', sans-serif;
-}
-
+}  
 
 .logo {
     font-size: 30pt;
@@ -26,6 +25,7 @@
 }
 .logo a {
     text-decoration: none;
+    color: #1352BF;
 }
 .logo span {
     color: #FDB035;
