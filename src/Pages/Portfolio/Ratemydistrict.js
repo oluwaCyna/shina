@@ -5,11 +5,11 @@ import singlePorfolioStyle from './singleportfolio.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
-function Avatour() {
+function Ratemydistrict() {
 const content = {
     img: '/singleportfolio.jpg',
     imgAlt: 'Single Portfolio Header', 
-    title: 'Avatour.co/press', 
+    title: 'ratemydistrict.org', 
     desc: ''
     }
   return (
@@ -19,10 +19,9 @@ const content = {
             <div className={`container ${singlePorfolioStyle.container}`}>
             <div className={singlePorfolioStyle.mainContainer}>
                 <div className={singlePorfolioStyle.colOne}>
-                <img src={ '/avatour/Thumbnail.png' } alt={'Press'} className={singlePorfolioStyle.headerImg} />
-                <img src={ '/avatour/1.png' } alt={'Press'} className={singlePorfolioStyle.headerImg} />
-                <img src={ '/avatour/2.png' } alt={'Press'} className={singlePorfolioStyle.headerImg} />
-                <img src={ '/avatour/3.png' } alt={'Press'} className={singlePorfolioStyle.headerImg} />
+                    <img src={ '/ratemydistrict/1.png' } alt={'ratemydistrict.org'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/ratemydistrict/2.png' } alt={'ratemydistrict.org'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/ratemydistrict/3.png' } alt={'ratemydistrict.org'} className={singlePorfolioStyle.headerImg} />
                 </div>
 
                 <div className={singlePorfolioStyle.colTwo}>
@@ -72,4 +71,4 @@ const content = {
   )
 }
 
-export default Avatour
+export default Ratemydistrict

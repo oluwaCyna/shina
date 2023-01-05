@@ -5,11 +5,11 @@ import singlePorfolioStyle from './singleportfolio.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
-function Avatour() {
+function Oregon() {
 const content = {
     img: '/singleportfolio.jpg',
     imgAlt: 'Single Portfolio Header', 
-    title: 'Avatour.co/press', 
+    title: 'oregonsci.org', 
     desc: ''
     }
   return (
@@ -19,10 +19,10 @@ const content = {
             <div className={`container ${singlePorfolioStyle.container}`}>
             <div className={singlePorfolioStyle.mainContainer}>
                 <div className={singlePorfolioStyle.colOne}>
-                <img src={ '/avatour/Thumbnail.png' } alt={'Press'} className={singlePorfolioStyle.headerImg} />
-                <img src={ '/avatour/1.png' } alt={'Press'} className={singlePorfolioStyle.headerImg} />
-                <img src={ '/avatour/2.png' } alt={'Press'} className={singlePorfolioStyle.headerImg} />
-                <img src={ '/avatour/3.png' } alt={'Press'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/oregon/1.png' } alt={'oregonsci.org'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/oregon/2.png' } alt={'oregonsci.org'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/oregon/3.png' } alt={'oregonsci.org'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/oregon/4.png' } alt={'oregonsci.org'} className={singlePorfolioStyle.headerImg} />
                 </div>
 
                 <div className={singlePorfolioStyle.colTwo}>
@@ -72,4 +72,4 @@ const content = {
   )
 }
 
-export default Avatour
+export default Oregon

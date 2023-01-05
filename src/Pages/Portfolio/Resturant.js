@@ -19,11 +19,15 @@ const content = {
             <div className={`container ${singlePorfolioStyle.container}`}>
             <div className={singlePorfolioStyle.mainContainer}>
                 <div className={singlePorfolioStyle.colOne}>
-                <img src={ '/resturant/Thumbnail.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
-                <img src={ '/resturant/1.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
-                <img src={ '/resturant/2.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
-                <img src={ '/resturant/3.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
-                <img src={ '/resturant/4.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/fooddelivery/1.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/fooddelivery/2.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/fooddelivery/3.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/fooddelivery/4.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/fooddelivery/5.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/fooddelivery/6.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/fooddelivery/7.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/fooddelivery/8.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
+                <img src={ '/fooddelivery/9.png' } alt={'Resturant Food Point'} className={singlePorfolioStyle.headerImg} />
 
                 </div>
 

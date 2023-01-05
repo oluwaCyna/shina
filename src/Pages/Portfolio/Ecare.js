@@ -19,7 +19,6 @@ const content = {
             <div className={`container ${singlePorfolioStyle.container}`}>
             <div className={singlePorfolioStyle.mainContainer}>
                 <div className={singlePorfolioStyle.colOne}>
-                <img src={ '/ecare/Thumbnail.png' } alt={'Ecare- Hospital Managment App'} className={singlePorfolioStyle.headerImg} />
                 <img src={ '/ecare/1.png' } alt={'Ecare- Hospital Managment App'} className={singlePorfolioStyle.headerImg} />
                 <img src={ '/ecare/2.png' } alt={'Ecare- Hospital Managment App'} className={singlePorfolioStyle.headerImg} />
                 <img src={ '/ecare/3.png' } alt={'Ecare- Hospital Managment App'} className={singlePorfolioStyle.headerImg} />

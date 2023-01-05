@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px 15%;
-    text-align: justify;
+    /* text-align: justify; */
     font-size: 14pt;
     color: #000000;
     font-family: 'Open Sans', sans-serif;
@@ -52,14 +52,16 @@
 
 .stackList {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 20px;
     padding-bottom: 20px;
 }
 
 .stackCard {
     padding: 5px 50px;
-    width: 60%;
+    width: 35%;
     /* background-color: #ffffff;
     margin: auto;
     padding: 2em; */

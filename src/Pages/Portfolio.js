@@ -104,7 +104,7 @@ const Portfolio = () => {
             </div>
 
             <div className={porfolioStyle.colOne}>
-              <img src={ '/resturant/Thumbnail.png' } alt={'Resturant Food Point'} className={porfolioStyle.headerImg} />
+              <img src={ '/fooddelivery/1.png' } alt={'Resturant Food Point'} className={porfolioStyle.headerImg} />
             </div>
           </div>
           <hr className={porfolioStyle.hrLine} />
@@ -115,7 +115,7 @@ const Portfolio = () => {
         <div className={`container ${porfolioStyle.container}`}>
           <div className={porfolioStyle.mainContainer}>
             <div className={porfolioStyle.colOne}>
-              <img src={ '/ecare/Thumbnail.png' } alt={'Ecare- Hospital Managment App'} className={porfolioStyle.headerImg} />
+              <img src={ '/ecare/1.png' } alt={'Ecare- Hospital Managment App'} className={porfolioStyle.headerImg} />
             </div>
 
             <div className={porfolioStyle.colTwo}>
@@ -200,7 +200,55 @@ const Portfolio = () => {
             </div>
 
             <div className={porfolioStyle.colOne}>
-              <img src={ '/commerce/Thumbnail.png' } alt={'E-commerce Website'} className={porfolioStyle.headerImg} />
+              <img src={ '/' } alt={'E-commerce Website'} className={porfolioStyle.headerImg} />
+            </div>
+          </div>
+          <hr className={porfolioStyle.hrLine} />
+        </div>
+      </div>
+
+      <div>
+        <div className={`container ${porfolioStyle.container}`}>
+          <div className={porfolioStyle.mainContainer}>
+          <div className={porfolioStyle.colOne}>
+              <img src={ '/oregon/1.png' } alt={'oregonsci.org'} className={porfolioStyle.headerImg} />
+            </div>
+
+            <div className={porfolioStyle.colTwo}>
+              <div className={porfolioStyle.heading}>
+                <h2>oregonsci.org</h2>
+                <div className={porfolioStyle.hrDiv}><hr /></div>
+              </div>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <Link to={'/portfolio/oregon'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
+            </div>
+          </div>
+          <hr className={porfolioStyle.hrLine} />
+        </div>
+      </div>
+
+      <div>
+        <div className={`container ${porfolioStyle.container}`}>
+          <div className={porfolioStyle.mainContainer}>
+            <div className={porfolioStyle.colTwo}>
+              <div className={porfolioStyle.heading}>
+                <h2>ratemydistrict.org</h2>
+                <div className={porfolioStyle.hrDiv}><hr /></div>
+              </div>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <Link to={'/portfolio/ecommerce'}><FontAwesomeIcon icon={faArrowRightLong} className={porfolioStyle.arrow} size='2x'/></Link>
+            </div>
+
+            <div className={porfolioStyle.colOne}>
+              <img src={ '/raemydistrict/1.png' } alt={'atemydistrict'} className={porfolioStyle.headerImg} />
             </div>
           </div>
           <hr className={porfolioStyle.hrLine} />

@@ -25,8 +25,8 @@ const Footer = () => {
             <h3>About Me</h3>
             <p>I am a Full Stack Developer.<br/> Wordpress, Wix, Webflow, Squarespace, Custom solutions with code</p>
             <div className={footerStyle.footerButtonGroup}>
-              <Link to={'/'} className={'btn primary-btn'}>Request Quote</Link>
-              <Link to={'/'} className={'btn secondary-btn'}>Discovery Call</Link>
+              <Link to={'contact'} className={'btn primary-btn'}>Request Quote</Link>
+              <Link to={'contact'} className={'btn secondary-btn'}>Discovery Call</Link>
             </div>
           </div>
           <div className={footerStyle.footerSectionTwo}>
@@ -42,8 +42,8 @@ const Footer = () => {
           <div className={footerStyle.footerSectionThree}>
           <h3>Stacks</h3>
             <div className={footerStyle.footerListGroup}>
-                <p><FontAwesomeIcon icon={faHandPointRight} /> HTML, CSS, Bootstrap, Tailwind CSS</p>
-                <p><FontAwesomeIcon icon={faHandPointRight} /> Javascript, ReactJS, API</p>
+                <p><FontAwesomeIcon icon={faHandPointRight} /> HTML, CSS, Bootstrap, Sass</p>
+                <p><FontAwesomeIcon icon={faHandPointRight} /> Javascript, JQuery, ReactJS, Redux</p>
                 <p><FontAwesomeIcon icon={faHandPointRight} /> PHP, Laravel, API</p>
                 <p><FontAwesomeIcon icon={faHandPointRight} /> MySQL, MongoDB</p>
                 <p><FontAwesomeIcon icon={faHandPointRight} /> Custon wordpress, wix velo</p>
